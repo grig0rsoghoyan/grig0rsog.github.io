@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    background: linear-gradient(0deg, #ffffff 83%, #212529 99%);
+    background-repeat: no-repeat;
+}
+
+.nav-link {
+    color: white;
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(158, 158, 158);
+}
+
+.navbar-brand img {
+    width: 100px;
+}
+
+.navbar-toggler {
+    background-color: rgb(158, 158, 158);
+}
+
+.sidebar {
+    /* background-color: rgb(158, 158, 158);
+    color: white; */
+    border-radius: 10px;
+}
+
+.card {
+    background-color: rgb(158, 158, 158);
+    color: white;
+}
+
+.card a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.slide-text {
+    margin: auto auto;
+}
+
+.footer-text {
+    color: #ffffff;
+}
+
+footer {
+    background-color: #212529;
+}
+
+.slider {
+    background-color: #212529;
+    color: white;
+}
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
+
+.medialinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-animation {
+    animation: phoneanim 2s ease-out 0s infinite normal forwards;
+}
+
+@keyframes phoneanim {
+	0% {
+		transform: translate(0);
+	}
+
+	10% {
+		transform: translate(-2px, -2px);
+	}
+
+	20% {
+		transform: translate(2px, -2px);
+	}
+
+	30% {
+		transform: translate(-2px, 2px);
+	}
+
+	40% {
+		transform: translate(2px, 2px);
+	}
+
+	50% {
+		transform: translate(-2px, -2px);
+	}
+
+	60% {
+		transform: translate(2px, -2px);
+	}
+
+	70% {
+		transform: translate(-2px, 2px);
+	}
+
+	80% {
+		transform: translate(-2px, -2px);
+	}
+
+	90% {
+		transform: translate(2px, -2px);
+	}
+
+	100% {
+		transform: translate(0);
+	}
+}
